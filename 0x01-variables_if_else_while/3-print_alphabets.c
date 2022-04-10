@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - printing lower case and uppercase 
+ * main - prints the alphabet in lowercase, and then in uppercase,
  * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int alp;
+	int ch;
 
-	for (alp = 'a'; alp <= 'z'; alp++)
-		putchar(alp);
-	for (alp = 'A'; alp <= 'Z'; alp++)
-		putchar(alp);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
