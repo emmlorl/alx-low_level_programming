@@ -7,18 +7,12 @@
  */
 int main(void)
 {
-	char i;
+	int alp;
+
+	for (alp = 'a'; alp <= 'z'; alp++)
+		putchar(alp);
+	for (alp = 'A'; alp <= 'Z'; alp++)
+		putchar(alp);
 	putchar('\n');
-	for(i='A'; i<='Z'; i++)
-	{
-		putchar("%c ",i);
-	}
-
-	putchar("\n");
-	for(i='a'; i<='z'; i++)
-	{
-		putchar("%c ",i);
-	}
-
 	return (0);
 }
